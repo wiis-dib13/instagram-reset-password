@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram - Reset Password</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f3f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .email-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .logo-text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 32px;
+      margin-right: 10px;
+    }
+
+    .instagram-image {
+      width: 40px;
+      height: 40px;
+    }
+
+    .button {
+      display: block;
+      background-color: #3897f0;
+      color: white;
+      padding: 12px;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .message {
+      font-size: 14px;
+      color: #333;
+    }
+
+    #confirmation {
+      text-align: center;
+      margin-top: 10px;
+      color: green;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 480px) {
+      .email-box {
+        padding: 20px;
+        margin: 10px;
+      }
+
+      .logo-text {
+        font-size: 28px;
+      }
+
+      .instagram-image {
+        width: 32px;
+        height: 32px;
+      }
+
+      .button {
+        padding: 10px;
+        font-size: 14px;
+      }
+
+      .message {
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="email-box">
+    <div class="header">
+      <div class="logo-text">Instagram</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Logo Instagram" class="instagram-image">
+    </div>
+    <p>Hi,</p>
+    <p>We got a request to reset your Instagram password.</p>
+    <a href="test2.html" class="button">Reset Password</a>
+    <p class="message">
+      If you ignore this message, your password will not be changed. If you didn't request a password reset, let us know.
+    </p>
+    <p id="confirmation"></p>
+  </div>
+
+</body>
+</html>
